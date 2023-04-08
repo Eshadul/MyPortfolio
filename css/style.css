@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+/* ==========================
+    Navbar Part Start
+============================= */
+
+nav{
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    padding-top: 25px !important;
+}
+
+.nav__brand{
+    font-family: 'Lato', sans-serif;
+    color: #ddd !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav__list{
+    margin: 0 10px;
+}
+
+.nav__menu{
+    font-family: 'Lato', sans-serif;
+    color: #ddd;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav__menu:hover{
+    color: #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+/* ==========================
+    Navbar Part End
+============================= */
+
+/* ==========================
+    Banner Part Start
+============================= */
+
+#banner{
+    background: url(../images/back.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner__overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    padding-bottom: 150px;
+}
+
+.banner__heading{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.banner__image{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner__img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+/* ==========================
+    Banner Part End
+============================= */
+
+/* ==========================
+     About Part Start
+============================= */
+
+#about{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.about__heading{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    color: #333333;
+    text-align: center;
+}
+#about p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+#about span{
+    color: #27ae60;
+    font-weight: 700;
+}
+#about .image{
+    text-align: right;
+    margin-top: 20px;
+}
+#about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+/* ==========================
+    About Part End
+============================= */
+/*=================
+hobby start
+======================= */
+#hobby{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.hobby__heading{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    color: #333333;
+    text-align: center;
+}
+#hobby p{
+    font-size: 23px;
+    margin-top: 20px;
+}
+#hobby .image{
+    text-align: right;
+    margin-top: 20px;
+}
+#hobby img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+/*===============
+hobby end here
+===================*/
+#academic{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.academic__heading{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    color: #333333;
+    text-align: center;
+}
+
+/* ==========================
+    Contact Part Start
+============================= */
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.contact__heading{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact__box{
+    display: flex;
+}
+
+.contact__info{
+    margin-top: 10px;
+}
+
+.contact__text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(51, 51, 51);
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.contact__icon{
+    margin-right: 20px;
+}
+
+.contact__phone{
+    color: #FFFFFF;
+    font-size: 15px;
+    background: rgb(35, 35, 35);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* ==========================
+    Contact Part End
+============================= */
